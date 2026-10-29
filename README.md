@@ -1,11 +1,9 @@
-# Attenuation Measurement 2.5 GB & 10 GB
-# Attenuation-Limited Fiber Length
-
+# Attenuation Measurement Limited Fiber Length 2.5 GB & 10 GB
+# RAGHUL V
+# 212223060216
 ## Objective
 - Calculate the attenuation-limited fiber length based on the power budget equation.  
 - Simulate the resulting system and verify that it meets performance objectives.
-
----
 
 ## Theory
 The **power budget equation** states that the power budget in a transmission system must equal the sum of all power losses plus the power margin.  
@@ -21,7 +19,6 @@ The **receiver sensitivity** is defined as the minimum power required to achieve
 - Fiber attenuation depends on the operating wavelength.  
 
 ---
-
 ## Pre-lab Calculations
 Using the power budget equation and the parameters below, determine the attenuation-limited fiber length:
 
@@ -36,7 +33,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - **Power margin:** 6 dB  
 
 ---
-
 ## Layout
 - The system has been created using **OptiSystem** and exported as an **OptiPerformer** file.  
 - Two versions exist: one for **2.5 Gb/s** and one for **10 Gb/s**.  
@@ -48,7 +44,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - Visualizer components are included to obtain necessary simulation data.  
 
 ---
-
 ## Simulation
 1. Run the simulation and record:
    - **Optical power levels (dBm):**
@@ -58,27 +53,19 @@ Using the power budget equation and the parameters below, determine the attenuat
      - BER  
      - Q factor  
      - Eye diagram  
-
 2. Set the fiber length to **125% of the calculated pre-lab value** and repeat the simulation and data recording.  
-
 ---
 
 ## Analysis and Report
-Compare simulation results with pre-lab calculations and record observations.  
+# Calculation
+<img width="1600" height="1381" alt="image" src="https://github.com/user-attachments/assets/ce138a28-9c39-45a8-ab4e-02ef00484267" />
 
-Your report should contain:
-- **Cover Page**
-  - Title of the lab  
-  - Course name and number  
-  - Your name  
 
-- **Pre-lab Calculations**  
+# 2.5GB
+<img width="1920" height="1080" alt="Screenshot 2026-10-22 102217" src="https://github.com/user-attachments/assets/ec7ca4df-4d15-4d99-a9a1-79c19f0b9b58" />
 
-- **Screenshots** of layout and results (including eye diagrams)  
+# 10GB
+<img width="1920" height="1080" alt="Screenshot 2026-10-22 105208" src="https://github.com/user-attachments/assets/16114346-599f-4726-8c85-2198d6c48b96" />
 
-- **Summary Table** for each simulation:
-  | Fiber Length (km) | Received Power (dBm) | Q Factor | BER |
-  |-------------------|-----------------------|----------|-----|
-  
-
-- **Written Summary** of observations and explanations of differences.  
+## Result
+Thus the attenuation-limited fiber lenght based on the power budget equation is successfully simulated and verified.
